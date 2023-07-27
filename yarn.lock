@@ -489,6 +489,11 @@
   dependencies:
     "@types/node" "*"
 
+"@vercel/analytics@^1.0.1":
+  "integrity" "sha512-Ux0c9qUfkcPqng3vrR0GTrlQdqNJ2JREn/2ydrVuKwM3RtMfF2mWX31Ijqo1opSjNAq6rK76PwtANw6kl6TAow=="
+  "resolved" "https://registry.npmjs.org/@vercel/analytics/-/analytics-1.0.1.tgz"
+  "version" "1.0.1"
+
 "@vitejs/plugin-react-swc@^3.0.0":
   "integrity" "sha512-IcBoXL/mcH7JdQr/nfDlDwTdIaH8Rg7LpfQDF4nAht+juHWIuv6WhpKPCSfY4+zztAaB07qdBoFz1XCZsgo3pQ=="
   "resolved" "https://registry.npmjs.org/@vitejs/plugin-react-swc/-/plugin-react-swc-3.2.0.tgz"

@@ -10,8 +10,10 @@ import { ChatInterface } from '@type/chat';
 import { Theme } from '@type/theme';
 import ApiPopup from '@components/ApiPopup';
 import Toast from '@components/Toast';
+import { inject } from '@vercel/analytics/*';
 
 function App() {
+  inject();
   const initialiseNewChat = useInitialiseNewChat();
   const setChats = useStore((state) => state.setChats);
   const setTheme = useStore((state) => state.setTheme);
@@ -83,5 +85,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;
