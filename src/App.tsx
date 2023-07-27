@@ -10,10 +10,10 @@ import { ChatInterface } from '@type/chat';
 import { Theme } from '@type/theme';
 import ApiPopup from '@components/ApiPopup';
 import Toast from '@components/Toast';
-import { inject } from '@vercel/analytics/*';
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
-  inject();
+  <Analytics />
   const initialiseNewChat = useInitialiseNewChat();
   const setChats = useStore((state) => state.setChats);
   const setTheme = useStore((state) => state.setTheme);
