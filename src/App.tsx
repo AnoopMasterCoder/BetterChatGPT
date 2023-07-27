@@ -13,7 +13,7 @@ import Toast from '@components/Toast';
 import { Analytics } from '@vercel/analytics/react';
 
 function App() {
-  <Analytics />
+  
   const initialiseNewChat = useInitialiseNewChat();
   const setChats = useStore((state) => state.setChats);
   const setTheme = useStore((state) => state.setTheme);
@@ -82,6 +82,7 @@ function App() {
       <Chat />
       <ApiPopup />
       <Toast />
+      <Analytics />
     </div>
   );
 }
